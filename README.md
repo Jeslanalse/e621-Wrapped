@@ -48,7 +48,7 @@ When you run `e621_wrapped.py`, a user_profile is generated that, for each tag p
 |**relative_presence**|How many times more present this tag is in your favorites than in the average user|
 |**enjoyment**|The harmonic mean of **presence** and the (capped at 100 and normalized) **relative presence**. This means that the higher and the more balanced the two other fields are, the higher **enjoyment** be|
 
-Tags are then sorted in order of **enjoyment**. We also use tag implications to consider only the most enjoyed tag from a collection of similar ones. This process uses the tag implication data in `data/tag_implications.csv`, which was downloaded from the [db_export](https://e621.net/db_export/) on 06/30/2025. Feel free to replace it for the newest version. Just make sure to give it the same name.
+Tags are then sorted in order of **enjoyment**. We also use tag implications to consider only the most enjoyed tag from a collection of similar ones. This process uses the tag implication data in `data/tag_implications.csv`, which was downloaded from the [db_export](https://e621.net/db_export/) on 21 April 2026. Feel free to replace it for the newest version. Just make sure to give it the same name.
 
 ### Finding posts that match your profile
 
